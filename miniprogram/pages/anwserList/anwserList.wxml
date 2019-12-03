@@ -1,0 +1,29 @@
+<view>
+    <view class="nav">
+        <div wx:for="{{nav}}"
+             wx:key="{{index}}"
+             id="{{index}}"
+             bindtap="onNavClick"
+             class="{{navActiveIndex == index ? 'on' : ''}}">
+            {{item}}
+            <view class="line-bottom"></view>
+        </div>
+    </view>
+    <view class="list-box" wx:if="{{items.length > 0}}">
+        <view  class="list card">
+            <view  class="list-item">
+                <div class="item-top">
+                    <span class="name fw">题号</span>
+                    <span class="name ml fw">答案</span>
+                </div>
+            </view>
+            <view  class="list-item" wx:for="{{items}}" wx:key="{{index}}">
+                <div class="item-top" bindtap="onItemActive" id="{{index}}">
+                    <span class="name">{{item.num}}</span>
+                    <span class="name ml">{{item.anwser}}</span>
+                    <span class="iconfont icon-arrow-right"></span>
+                </div>
+            </view>
+        </view>
+    </view>
+</view>

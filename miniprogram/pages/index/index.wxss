@@ -1,0 +1,29 @@
+
+.list{
+    padding:18px;
+}
+.list-item{
+    height: 46px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 14px;
+}
+.name{
+    color: #615f6a;
+    font-weight: 500;
+    font-size: 18px;
+}
+.iconfont-box{
+    margin-left: auto;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 50%;
+    background: #7aa4f8;
+    text-align: center;
+    box-shadow:2px 2px 4px #ccdbf8;
+}
+.iconfont{
+    color: white;
+}

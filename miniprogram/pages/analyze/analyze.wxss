@@ -1,0 +1,7 @@
+.content{
+    padding: 18px;
+}
+.analyze{
+    padding: 10px;
+    background: white;
+}

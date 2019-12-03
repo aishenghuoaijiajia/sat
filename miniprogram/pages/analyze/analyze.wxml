@@ -1,0 +1,6 @@
+<view class="content">
+    <view class="analyze card">
+        <span class="fw">解析：</span>
+        <span class="main-color">{{analyze}}</span>
+    </view>
+</view>

@@ -1,0 +1,32 @@
+/**app.wxss**/
+@import "./style/icon/iconfont.wxss";
+
+button {
+  background: initial;
+}
+
+button:focus{
+  outline: 0;
+}
+
+button::after{
+  border: none;
+}
+
+page {
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.fw{
+  font-weight: 500;
+}
+.card{
+  background: white;
+  border-radius: 6px;
+  box-shadow:2px 2px 7px #E3E4E8;
+}
+.main-color{
+  color: #615f6a;
+}

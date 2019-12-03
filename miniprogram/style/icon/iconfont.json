@@ -1,0 +1,16 @@
+{
+  "id": "1533399",
+  "name": "sat",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11474198",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    }
+  ]
+}

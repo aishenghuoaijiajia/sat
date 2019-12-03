@@ -1,0 +1,25 @@
+
+<view class="container">
+
+  <!-- 导航 -->
+  <view class="list">
+    <view class="list-item">
+      <text class="request-text" wx:for="{{20}}" style="color: {{step === index + 1 ? 'red': 'black'}}">{{index + 1}}</text>
+    </view>
+    <view class="list-item" wx:if="{{openid}}">
+      <text class="request-text">openid：{{openid}}</text>
+    </view>
+    <view class="list-item" wx:if="{{counterId}}">
+      <text class="request-text">当前记录 ID：{{counterId}}</text>
+    </view>
+  </view>
+
+  <view class="guide" wx:if="{{step === 1}}">
+    <text class="headline">示例介绍</text>
+    <text class="p">1. 以计数器为例，在此演示如何操作数据库</text>
+    <text class="p">2. 数据库操作大多需要用户 openid，需先配置好 login 云函数，如已配置好，点击下一步，获取用户 openid 并开始我们的指引</text>
+    <div class="nav">
+      <button class="next" size="mini" type="default" bindtap="nextStep">下一步</button>
+    </div>
+  </view>
+</view>

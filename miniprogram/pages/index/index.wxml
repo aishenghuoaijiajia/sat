@@ -1,0 +1,13 @@
+<view  class="list">
+      <view  class="list-item card"
+               wx:key="{{index}}"
+               data-index="{{index}}"
+               bindtap="goToAnwserList"
+               wx:for="{{satPapersList}}">
+          <span class="name">{{item.name}}</span>
+          <div class="iconfont-box">
+              <span class="iconfont icon-arrow-right"></span>
+          </div>
+      </view>
+</view>
+
